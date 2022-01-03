@@ -6,20 +6,21 @@
 
 .contactMe_data_links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding-left: 4rem;
 }
 
 .contactMe_data_links a {
     color:white;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .contactMe_data_links a:hover {
     color: var(--light-color);
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .contactMe_data_links {
         flex-direction: column;
         align-items: center;
