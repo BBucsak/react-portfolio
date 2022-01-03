@@ -6,7 +6,7 @@
 
 .contactMe_data_links {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 4rem;
 }
 
