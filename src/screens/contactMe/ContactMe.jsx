@@ -19,9 +19,6 @@ function ContactMe() {
           <p><a href="mailto:bbucsak@gmail.com?
           subject=subject text">bbucsak@gmail.com</a> </p>
           </div>
-          <div>
-          { createLinks()}
-        </div>
       </div>
       <div style={{ textAlign:'center'}}>Copyright&copy; {new Date().getFullYear()} All rights reserved</div>
     </div>
