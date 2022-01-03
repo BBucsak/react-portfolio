@@ -11,9 +11,9 @@ export default class Particles extends React.Component {
     canvas.width = document.documentElement.clientWidth;
     canvas.height = document.documentElement.clientHeight;
  
-    let num = 200;
+    let num = 150;
     let size = 1;
-    let color = "#fff";
+    let color = "#66737f";
     let min_speed = 0.1;
     let max_speed = 0.5;
     let line_distance = 80;
@@ -61,7 +61,7 @@ export default class Particles extends React.Component {
           if (distance(particles[q], p) <= line_distance) {
             ctx.beginPath();
             ctx.lineWidth = 0.2;
-            ctx.strokeStyle = "#fff";
+            ctx.strokeStyle = "#66737f";
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(particles[q].x, particles[q].y);
             ctx.stroke();
